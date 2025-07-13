@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Hamburger from 'hamburger-react';
-import hawoka from '../assets/hawoka.jpg'
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,7 +10,7 @@ const Navbar = () => {
       {/* Desktop Navbar */}
       <div className="navbar-desktop">
         <div className="navbar-left">
-          <div className="navbar-logo"> <img src={hawoka} alt="" /></div>
+          <div className="navbar-logo"> <img src='' alt="" /></div>
          
         </div>
         <div className="navbar-actions">
@@ -56,9 +56,9 @@ const Navbar = () => {
             </div>
             <div className="footer-section">
               <h3 className="footer-heading">Contact Us</h3>
-              <p className="footer-text">hello@moonbox.ae</p>
-              <p className="footer-text">04 2696733</p>
-              <p className="footer-text">052 421 9856</p>
+              <p className="footer-text">hello@rinshid</p>
+              <p className="footer-text">988 696733</p>
+              <p className="footer-text">7889 9856</p>
             </div>
             <div className="footer-section">
               <h3 className="footer-heading">Reach Us</h3>
