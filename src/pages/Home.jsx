@@ -17,7 +17,7 @@ import Footer from '../components/Footer'
 const Home = () => {
   return (
     <>
-    <OsmoParallax/>
+    <Hero/>
    
     <AgencyStats/>
     <CansDisplay/>
